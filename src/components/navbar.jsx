@@ -12,9 +12,6 @@ export default function Navbar() {
                 <Link to='/gallery' className="link">Gallery</Link>
             </li>
             <li className="navItem">
-                <Link to='/originals' className="link">Originals</Link>
-            </li>
-            <li className="navItem">
                 <Link to='/press' className="link">Press</Link>
             </li>
             <li className="navItem">
