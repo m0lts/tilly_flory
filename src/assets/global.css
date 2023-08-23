@@ -215,6 +215,123 @@ header {
     background-color: var(--light-medium-grey);
 }
 
+/* SHOP PAGE */
+.shop_page {
+    padding:50px;
+}
+.shop_grid {
+    padding:25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap:25px;
+}
+.shop_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:25px;
+    width:100%;
+    height: fit-content;
+    transition: all 250ms linear;
+    cursor: pointer;
+}
+.shop_item:hover {
+    background-color: var(--light-grey);
+    transition: all 250ms linear;
+}
+.shop_img {
+    width:80%;
+    height: auto;
+    object-fit: cover;
+}
+.shop_item_description {
+    margin-top:25px;
+    text-align: center;
+}
+.shop_item_title {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+/* BACK BUTTON */
+
+
+/* INDIVIDUAL PIECE PAGES */
+.piece_page {
+    padding-bottom: 50px;
+}
+.piece_cont {
+    margin: 25px auto;
+    width:50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+.piece_img, .piece_img_2, .piece_img_3 {
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+.piece_desc {
+    text-align: center;
+}
+.piece_title {
+    width:fit-content;
+    margin: 15px auto;
+    padding: 10px;
+    border-bottom: 1px solid var(--dark-grey);
+}
+.piece_description, .piece_date, .piece_size {
+    font-size: 0.8rem;
+}
+.piece_price {
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+.prints_cont {
+    width: fit-content;
+    margin: 25px auto;
+}
+.piece_prints {
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--dark-grey);
+}
+.piece_prints_price {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.piece_prints_size {
+    font-size: 0.8rem;
+}
+.enquiries_link {
+    text-decoration: none;
+    color: var(--black);
+    transition: all 250ms linear;
+}
+.enquiries_link:hover {
+    color: var(--dark-grey);
+    text-decoration: underline;
+    transition: all 250ms linear;
+}
+.change_img_btn {
+    border:none;
+    padding:10px;
+    font-family: var(--primary-font);
+    background-color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 
 /* SUBSCRIBE FORM */
