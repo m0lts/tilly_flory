@@ -5,7 +5,7 @@ import BackBtn from "../components/backBtn";
 export default function TheCloakBetween() {
 
     const piece =     {
-        src: '../../public/images/slideshow_imgs/bed.jpg',
+        src: '/images/slideshow_imgs/bed.jpg',
         title: 'The Cloak Between',
         description: 'Acrylic on canvas.',
         date:  'March 2023',

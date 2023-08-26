@@ -6,8 +6,8 @@ import BackBtn from "../components/backBtn";
 export default function FoldsOfGrief() {
 
     const piece =     {
-        src: '../../public/images/slideshow_imgs/sofas.jpg',
-        src2: '../../public/images/slideshow_imgs/sofas_2.JPG',
+        src: '/images/slideshow_imgs/sofas.jpg',
+        src2: '/images/slideshow_imgs/sofas_2.JPG',
         title: 'Folds of Grief',
         description: 'Acrylic on canvas.',
         date:  'January 2023',

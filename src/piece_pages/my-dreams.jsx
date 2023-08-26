@@ -5,7 +5,7 @@ import BackBtn from "../components/backBtn";
 export default function MyDreams() {
 
     const piece =     {
-        src: '../../public/images/slideshow_imgs/lamb.jpg',
+        src: '/images/slideshow_imgs/lamb.jpg',
         title: 'My Dreams',
         description: 'Graphite on heavyweight cartridge paper.',
         date:  'July 2023',

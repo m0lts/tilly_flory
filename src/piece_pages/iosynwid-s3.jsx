@@ -5,7 +5,7 @@ import BackBtn from "../components/backBtn";
 export default function IOSYNWID_S3() {
 
     const piece =     {
-        src: '../../public/images/slideshow_imgs/hair.jpg',
+        src: '/images/slideshow_imgs/hair.jpg',
         title: 'I only see you now when I dream. Series 3',
         description: 'Acrylic on canvas.',
         date:  'April 2023',

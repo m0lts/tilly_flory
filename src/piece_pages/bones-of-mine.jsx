@@ -6,9 +6,9 @@ import BackBtn from "../components/backBtn";
 export default function BonesOfMine() {
 
     const piece =     {
-        src: '../../public/images/slideshow_imgs/lioness.jpg',
-        src2: '../../public/images/slideshow_imgs/lioness_2.JPG',
-        src3: '../../public/images/slideshow_imgs/lioness_3.jpg',
+        src: '/images/slideshow_imgs/lioness.jpg',
+        src2: '/images/slideshow_imgs/lioness_2.JPG',
+        src3: '/images/slideshow_imgs/lioness_3.jpg',
         title: 'Bones of Mine',
         description: 'Graphite on heavyweight cartridge paper.',
         date:  'July 2023',

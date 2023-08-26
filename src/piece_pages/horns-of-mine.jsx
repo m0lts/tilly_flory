@@ -6,8 +6,8 @@ import BackBtn from "../components/backBtn";
 export default function HornsOfMine() {
 
     const piece =     {
-        src: '../../public/images/slideshow_imgs/rhino.jpg',
-        src2: '../../public/images/slideshow_imgs/rhino_2.JPG',
+        src: '/images/slideshow_imgs/rhino.jpg',
+        src2: '/images/slideshow_imgs/rhino_2.JPG',
         title: 'Horns of Mine',
         description: 'Graphite and charcoal on heavyweight cartridge paper.',
         date:  'July 2023',

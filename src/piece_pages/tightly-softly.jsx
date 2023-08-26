@@ -5,7 +5,7 @@ import BackBtn from "../components/backBtn";
 export default function TightlySoftly() {
 
     const piece = {
-        src: '../../public/images/slideshow_imgs/fox.jpg',
+        src: '/images/slideshow_imgs/fox.jpg',
         title: 'Tightly, Softly',
         description: 'Graphite on heavyweight cartridge paper.',
         date:  'August 2023',

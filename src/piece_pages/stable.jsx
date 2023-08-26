@@ -6,8 +6,8 @@ import BackBtn from "../components/backBtn";
 export default function Stable() {
 
     const piece =     {
-        src: '../../public/images/slideshow_imgs/horse.jpg',
-        src2: '../../public/images/slideshow_imgs/horse_2.JPG',
+        src: '/images/slideshow_imgs/horse.jpg',
+        src2: '/images/slideshow_imgs/horse_2.JPG',
         title: 'Stable',
         description: 'Graphite on heavyweight cartridge paper.',
         date:  'June 2023',
