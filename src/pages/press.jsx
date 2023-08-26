@@ -19,8 +19,8 @@ export default function Press() {
                          and emerging as something changed, perhaps more complex than it once was.”</p>
                 </div>
                 <div className="press_imgs_cont">
-                    <img src="/public/images/press_imgs/shrouded_in_folds.jpeg" alt="" />
-                    <img src="/public/images/press_imgs/shrouded_in_folds2.jpeg" alt="" />
+                    <img src="/images/press_imgs/shrouded_in_folds.jpeg" alt="" />
+                    <img src="/images/press_imgs/shrouded_in_folds2.jpeg" alt="" />
                 </div>
             </div>
         </section>
