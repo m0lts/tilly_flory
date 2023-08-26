@@ -71,6 +71,10 @@ header {
     cursor: pointer;
     transition: all 250ms linear;
 }
+.link.active {
+    font-weight: 500;
+    transition: all 250ms linear;
+}
 
 /* SLIDESHOW */
 .slideshow_cont {
@@ -255,8 +259,6 @@ header {
     font-size: 1.25rem;
 }
 
-/* BACK BUTTON */
-
 
 /* INDIVIDUAL PIECE PAGES */
 .piece_page {
@@ -332,6 +334,61 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* PRESS PAGE */
+.press_page {
+    padding:50px;
+}
+.press_page h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.press_container {
+    padding:25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.press_title_and_date {
+    margin-bottom: 25px;
+}
+.press_title {
+    font-size: 1.75rem;
+}
+.press_date {
+    color: var(--dark-grey);
+    font-size: 0.8rem;
+    padding:10px 0;
+}
+.press_text {
+    padding: 10px 0;
+    line-height: 1.75rem;
+    letter-spacing: 0.03rem;
+}
+.press_imgs_cont {
+    padding-top: 25px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+.press_imgs_cont img {
+    width:50%;
+    height:auto;
+}
+@media screen and (max-width: 768px) {
+    .press_imgs_cont {
+        flex-direction: column;
+    }
+    .press_imgs_cont img {
+        width:100%;
+    }
+}
+    
+
 
 
 /* SUBSCRIBE FORM */
