@@ -32,8 +32,8 @@ export default function IOSYNWID_S4() {
     return (
         <section className="piece_page">
         <div className="piece_cont">
-            {piece.src2 ? <button className="change_img_btn" onClick={changeImg}>Change Image</button> : ''}
             <img src={img} alt={piece.title} className="piece_img"/>
+            {piece.src2 ? <button className="change_img_btn" onClick={changeImg}>Change Image</button> : ''}
         </div>
         <div className="piece_desc">
             <h1 className="piece_title">{piece.title}</h1>
