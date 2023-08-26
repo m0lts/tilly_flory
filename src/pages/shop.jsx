@@ -5,7 +5,7 @@ import { piecesShop } from "../data/pieceInfo";
 export default function Shop() {
 
     const openPiecePage = (image) => {
-        window.location.href = image.page;
+        window.location.hash = image.page;
     };
     return (
         <section className="shop_page">
