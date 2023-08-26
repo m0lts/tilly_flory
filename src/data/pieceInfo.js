@@ -1,5 +1,8 @@
+import fox_cropped from '../../public/images/slideshow_imgs_cropped/fox.jpg'
+
+
 export const slideImgs = [
-    '/public/images/slideshow_imgs_cropped/fox.jpg',
+    {fox_cropped},
     '/public/images/slideshow_imgs_cropped/bed.jpg',
     '/public/images/slideshow_imgs_cropped/sofas.jpg',
     '../../public/images/slideshow_imgs_cropped/back.jpg',
