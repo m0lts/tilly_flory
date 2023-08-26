@@ -1,5 +1,5 @@
 export const slideImgs = [
-    `${process.env.PUBLIC_URL}/images/slideshow_imgs_cropped/fox.jpg`,
+    '/images/slideshow_imgs_cropped/fox.jpg',
     '../../public/images/slideshow_imgs_cropped/bed.jpg',
     '../../public/images/slideshow_imgs_cropped/sofas.jpg',
     '../../public/images/slideshow_imgs_cropped/back.jpg',
@@ -12,7 +12,7 @@ export const slideImgs = [
 
 export const piecesGallery = [
     {
-        src: '../../public/images/slideshow_imgs/fox.jpg',
+        src: '/images/slideshow_imgs/fox.jpg',
         title: 'Tightly, Softly',
         description: 'Graphite on heavyweight cartridge paper.',
         date:  'August 2023',
