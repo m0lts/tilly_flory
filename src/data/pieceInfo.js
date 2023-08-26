@@ -1,5 +1,5 @@
 export const slideImgs = [
-    process.env.PUBLIC_URL + '/images/slideshow_imgs_cropped/fox.jpg',
+    `${process.env.PUBLIC_URL}/images/slideshow_imgs_cropped/fox.jpg`,
     '../../public/images/slideshow_imgs_cropped/bed.jpg',
     '../../public/images/slideshow_imgs_cropped/sofas.jpg',
     '../../public/images/slideshow_imgs_cropped/back.jpg',
