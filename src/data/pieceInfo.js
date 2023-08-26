@@ -1,7 +1,7 @@
 export const slideImgs = [
-    '../../public/images/slideshow_imgs_cropped/fox.jpg',
-    '../../public/images/slideshow_imgs_cropped/bed.jpg',
-    '../../public/images/slideshow_imgs_cropped/sofas.jpg',
+    '/public/images/slideshow_imgs_cropped/fox.jpg',
+    '/public/images/slideshow_imgs_cropped/bed.jpg',
+    '/public/images/slideshow_imgs_cropped/sofas.jpg',
     '../../public/images/slideshow_imgs_cropped/back.jpg',
     '../../public/images/slideshow_imgs_cropped/stag.jpg',
     '../../public/images/slideshow_imgs_cropped/lioness.jpg',
