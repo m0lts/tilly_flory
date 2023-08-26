@@ -36,7 +36,7 @@ export default function Stable() {
         <section className="piece_page">
         <div className="piece_cont">
             <img src={img} alt={piece.title} className="piece_img"/>
-            {piece.src2 ? <button className="change_img_btn" onClick={changeImg}>Change Image</button> : ''}
+            {piece.src2 ? <button className="change_img_btn" onClick={changeImg}>Next Image</button> : ''}
         </div>
         <div className="piece_desc">
             <h1 className="piece_title">{piece.title}</h1>
