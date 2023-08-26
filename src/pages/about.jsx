@@ -21,7 +21,6 @@ export default function About() {
                 <br />
                 In a world saturated with colour, my black and white acrylic paintings and graphite pencil drawings hope to offer a refreshing perspective.
             </p>
-            <SubscribeForm />
         </section>
     )
 }

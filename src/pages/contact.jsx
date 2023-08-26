@@ -20,7 +20,6 @@ export default function Contact() {
                     <span>TikTok:</span> @florysart
                 </li>
             </ul>
-            <SubscribeForm />
         </section>
     )
 }
