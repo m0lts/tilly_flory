@@ -18,6 +18,7 @@ import IOSYNWID_S4 from './piece_pages/iosynwid-s4.jsx'
 import TheCloakBetween from './piece_pages/the-cloak-between.jsx'
 import MyDreams from './piece_pages/my-dreams';
 import Stable from './piece_pages/stable';
+import SubSerenity from './piece_pages/subaquatic-serenity';
 import logo from '../public/logos/TILLY FLORY.svg'
 import '../src/assets/global.css'
 import { Route, Routes } from 'react-router-dom';
@@ -64,6 +65,7 @@ function App() {
             <Route path="/the-cloak-between" element={<TheCloakBetween />} />
             <Route path="/my-dreams" element={<MyDreams />} />
             <Route path="/stable" element={<Stable />} />
+            <Route path="/subaquatic-serenity" element={<SubSerenity />} />
           </Routes>
         </main>
       </div>

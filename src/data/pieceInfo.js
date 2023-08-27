@@ -94,6 +94,13 @@ export const piecesGallery = [
         description: 'Graphite on heavyweight cartridge paper.',
         date:  'June 2023',
         size: '29.7cm x 29.7cm'
+    },
+    {
+        src: '/images/slideshow_imgs/crocodile.jpeg',
+        title: 'Subaquatic Serenity',
+        description: 'Acrylic on canvas. Finished with a satin varnish.',
+        date:  'August 2023',
+        size: '50cm x 100cm'
     }
 ]
 
@@ -233,5 +240,15 @@ export const piecesShop = [
         price: '£560',
         sold: false,
         page: '/stable'
+    },
+    {
+        src: '/images/slideshow_imgs/crocodile.jpeg',
+        title: 'Subaquatic Serenity',
+        description: 'Acrylic on canvas. Finished with a satin varnish.',
+        date:  'August 2023',
+        size: '50cm x 100cm',
+        price: '£900',
+        sold: false,
+        page: '/subaquatic-serenity'
     }
 ]
