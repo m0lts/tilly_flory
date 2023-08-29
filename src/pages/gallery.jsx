@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import '../assets/global.css';
 import { piecesGallery } from "../data/pieceInfo";
 
@@ -7,10 +8,6 @@ export default function Gallery() {
     return (
         <section className="gallery_page">
             {piecesGallery.map((image, index) => {
-                // Calculate the aspect ratio (height/width) of the image
-
-                // Create a style object for each image with padding
-
                 return (
                     <div className="gallery_item" key={index}>
                         <img

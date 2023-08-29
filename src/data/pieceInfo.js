@@ -1,5 +1,5 @@
 export const slideImgs = [
-    '/images/slideshow_imgs_cropped/fox.jpg',
+    '/images/slideshow_imgs_cropped/crocodile.jpeg',
     '/images/slideshow_imgs_cropped/bed.jpg',
     '/images/slideshow_imgs_cropped/sofas.jpg',
     '/images/slideshow_imgs_cropped/back.jpg',
@@ -11,6 +11,13 @@ export const slideImgs = [
 ]
 
 export const piecesGallery = [
+    {
+        src: '/images/slideshow_imgs/crocodile.jpeg',
+        title: 'Subaquatic Serenity',
+        description: 'Acrylic on canvas. Finished with a satin varnish.',
+        date:  'August 2023',
+        size: '50cm x 100cm'
+    },
     {
         src: '/images/slideshow_imgs/fox.jpg',
         title: 'Tightly, Softly',
@@ -54,6 +61,13 @@ export const piecesGallery = [
         size: '100cm x 149cm'
     },
     {
+        src: '/images/slideshow_imgs/horse.jpg',
+        title: 'Stable',
+        description: 'Graphite on heavyweight cartridge paper.',
+        date:  'June 2023',
+        size: '29.7cm x 29.7cm'
+    },
+    {
         src: '/images/slideshow_imgs/sofas.jpg',
         title: 'Folds of Grief',
         description: 'Acrylic on canvas.',
@@ -87,24 +101,20 @@ export const piecesGallery = [
         description: 'Graphite on heavyweight cartridge paper.',
         date:  'July 2023',
         size: '21cm x 29.7cm'
-    },
-    {
-        src: '/images/slideshow_imgs/horse.jpg',
-        title: 'Stable',
-        description: 'Graphite on heavyweight cartridge paper.',
-        date:  'June 2023',
-        size: '29.7cm x 29.7cm'
-    },
+    }
+]
+
+export const piecesShop = [
     {
         src: '/images/slideshow_imgs/crocodile.jpeg',
         title: 'Subaquatic Serenity',
         description: 'Acrylic on canvas. Finished with a satin varnish.',
         date:  'August 2023',
-        size: '50cm x 100cm'
-    }
-]
-
-export const piecesShop = [
+        size: '50cm x 100cm',
+        price: '£900',
+        sold: false,
+        page: '/subaquatic-serenity'
+    },
     {
         src: '/images/slideshow_imgs/fox.jpg',
         title: 'Tightly, Softly',
@@ -240,15 +250,5 @@ export const piecesShop = [
         price: '£560',
         sold: false,
         page: '/stable'
-    },
-    {
-        src: '/images/slideshow_imgs/crocodile.jpeg',
-        title: 'Subaquatic Serenity',
-        description: 'Acrylic on canvas. Finished with a satin varnish.',
-        date:  'August 2023',
-        size: '50cm x 100cm',
-        price: '£900',
-        sold: false,
-        page: '/subaquatic-serenity'
     }
 ]

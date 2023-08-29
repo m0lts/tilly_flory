@@ -17,7 +17,7 @@ export default function Contact() {
                     <span>Facebook:</span> Flory's Art
                 </li>
                 <li className="contact_list_item">
-                    <span>TikTok:</span> @florysart
+                    <span>TikTok:</span> @tilly_flory
                 </li>
             </ul>
         </section>
