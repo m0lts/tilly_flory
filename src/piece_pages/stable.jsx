@@ -15,7 +15,7 @@ export default function Stable() {
         price: '£560',
         sold: false,
         prints: true,
-        printsPrice: '£45',
+        printsPrice: '£35',
         printsSize: '22cm x 22cm',
         printsNo: 2
     }

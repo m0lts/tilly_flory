@@ -1,16 +1,35 @@
 export const slideImgs = [
-    '/images/slideshow_imgs_cropped/crocodile.jpeg',
-    '/images/slideshow_imgs_cropped/bed.jpg',
-    '/images/slideshow_imgs_cropped/sofas.jpg',
+    '/images/slideshow_imgs_cropped/elephant.jpg',
+    '/images/slideshow_imgs_cropped/buffalo.jpg',
     '/images/slideshow_imgs_cropped/back.jpg',
     '/images/slideshow_imgs_cropped/stag.jpg',
-    '/images/slideshow_imgs_cropped/lioness.jpg',
     '/images/slideshow_imgs_cropped/rhino.jpg',
     '/images/slideshow_imgs_cropped/hair.jpg',
     '/images/slideshow_imgs_cropped/feet.jpg'
 ]
 
 export const piecesGallery = [
+    {
+        src: '/images/slideshow_imgs/elephant.jpg',
+        title: 'By Your Side, Always',
+        description: 'Graphite on heavyweight cartridge paper.',
+        date:  'November 2023',
+        size: '64cm x 45cm'
+    },
+    {
+        src: '/images/slideshow_imgs/hyena.JPG',
+        title: 'Midnight Feast',
+        description: 'Graphite and charcoal on heavyweight cartridge paper.',
+        date:  'November 2023',
+        size: '64cm x 45cm'
+    },
+    {
+        src: '/images/slideshow_imgs/buffalo.jpg',
+        title: 'In The Rough',
+        description: 'Acrylic on canvas. Finished with a satin varnish.',
+        date:  'October 2023',
+        size: '120cm x 100cm'
+    },
     {
         src: '/images/slideshow_imgs/crocodile.jpeg',
         title: 'Subaquatic Serenity',
@@ -105,6 +124,36 @@ export const piecesGallery = [
 ]
 
 export const piecesShop = [
+    {
+        src: '/images/slideshow_imgs/elephant.jpg',
+        title: 'By Your Side, Always',
+        description: 'Graphite on heavyweight cartridge paper.',
+        date:  'November 2023',
+        size: '64cm x 45cm',
+        price: '£950',
+        sold: false,
+        page: '/by-your-side'
+    },
+    {
+        src: '/images/slideshow_imgs/hyena.JPG',
+        title: 'Midnight Feast',
+        description: 'Graphite and charcoal on heavyweight cartridge paper.',
+        date:  'November 2023',
+        size: '64cm x 45cm',
+        price: '£950',
+        sold: false,
+        page: '/midnight-feast'
+    },
+    {
+        src: '/images/slideshow_imgs/buffalo.jpg',
+        title: 'In The Rough',
+        description: 'Acrylic on canvas. Finished with a satin varnish.',
+        date:  'October 2023',
+        size: '120cm x 100cm',
+        price: '£1200',
+        sold: false,
+        page: '/in-the-rough'
+    },
     {
         src: '/images/slideshow_imgs/crocodile.jpeg',
         title: 'Subaquatic Serenity',

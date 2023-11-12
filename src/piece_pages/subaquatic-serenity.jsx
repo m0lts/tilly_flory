@@ -23,8 +23,6 @@ export default function SubSerenity() {
     const changeImg = () => {
         if (piece.src2 && img === piece.src) {
             setImg(piece.src2);
-        } else if (piece.src3 && img === piece.src2) {
-            setImg(piece.src3);
         } else {
             setImg(piece.src);
         }
@@ -33,7 +31,7 @@ export default function SubSerenity() {
     return (
         <section className="piece_page">
         <div className="piece_cont">
-            <img src={piece.src} alt={piece.title} className="piece_img"/>
+            <img src={img} alt={piece.title} className="piece_img"/>
             {piece.src2 ? <button className="change_img_btn" onClick={changeImg}>Next Image</button> : ''}
         </div>
         <div className="piece_desc">

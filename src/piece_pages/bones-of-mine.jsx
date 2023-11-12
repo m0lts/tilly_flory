@@ -16,7 +16,7 @@ export default function BonesOfMine() {
         price: '£600',
         sold: false,
         prints: true,
-        printsPrice: '£75',
+        printsPrice: '£50',
         printsSize: '27.9cm x 27.9cm',
         printsNo: 5
     }

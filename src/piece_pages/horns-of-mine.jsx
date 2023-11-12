@@ -15,7 +15,7 @@ export default function HornsOfMine() {
         price: '£600',
         sold: true,
         prints: true,
-        printsPrice: '£90',
+        printsPrice: '£60',
         printsSize: 'A4',
         printsNo: 3
     }

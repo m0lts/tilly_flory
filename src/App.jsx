@@ -24,6 +24,9 @@ import '../src/assets/global.css'
 import { Route, Routes } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import LoadingOverlay from './components/loadingOverlay';
+import InTheRough from './piece_pages/in-the-rough.jsx';
+import MidnightFeast from './piece_pages/midnight-feast.jsx';
+import ByYourSide from './piece_pages/by-your-side.jsx';
 
 function App() {
 
@@ -66,6 +69,9 @@ function App() {
             <Route path="/my-dreams" element={<MyDreams />} />
             <Route path="/stable" element={<Stable />} />
             <Route path="/subaquatic-serenity" element={<SubSerenity />} />
+            <Route path="/in-the-rough" element={<InTheRough />} />
+            <Route path='/midnight-feast' element={<MidnightFeast />} />
+            <Route path='/by-your-side' element={<ByYourSide />} />
           </Routes>
         </main>
       </div>
