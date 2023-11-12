@@ -130,7 +130,7 @@ export const piecesShop = [
         description: 'Graphite on heavyweight cartridge paper.',
         date:  'November 2023',
         size: '64cm x 45cm',
-        price: '£950',
+        price: '£975',
         sold: false,
         page: '/by-your-side'
     },

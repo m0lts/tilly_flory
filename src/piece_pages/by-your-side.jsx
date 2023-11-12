@@ -13,7 +13,7 @@ export default function ByYourSide() {
         description: 'Graphite on cartridge paper.',
         date:  'November 2023',
         size: '64cm x 45cm',
-        price: '£950',
+        price: '£975',
         sold: false,
         prints: true,
         page: '/by-your-side',
